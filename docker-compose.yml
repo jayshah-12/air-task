@@ -22,7 +22,7 @@ services:
     container_name: postgres_container
     environment:
       POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
+      POSTGRES_PASSWORD: root2
       POSTGRES_DB: my_db
     volumes:
       - postgres_data:/var/lib/postgresql/data
